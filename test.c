@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(void) {
-  printf("Is This The Real Life\n");
+  printf("Hello World!\n")
   return 0;
 }
