@@ -2,7 +2,7 @@
 int main(void)
 {
     int i=10;
-    while(i<20)
+    while(i>0)
     {
         printf("i: %d\n", i);
         i--;
