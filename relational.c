@@ -7,7 +7,7 @@ int main(void)
     printf("Height: ");
     scanf("%d", &height);
 
-    if (height <= 155 )
+    if (height != 160)
     printf("Not Tall Enough\n");
     else
     printf("Tall Enough!\n");

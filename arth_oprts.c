@@ -1,5 +1,8 @@
 #include <stdio.h>
-int main(void) {
+
+int main(void) 
+
+{
     double x=5.5, y=6.5;
     double add=x+y;
     double sub=x-y;
