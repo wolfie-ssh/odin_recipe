@@ -8,8 +8,8 @@ int main()
     {
         printf("Enter a number: ");
         scanf("%d", &number);
-        if (number > max)
-        max=number;
+        if (number > max) max=number;
+        printf("Max: %d\n", max);
     }
     printf("Maximum Number is: %d\n", max);
 }
