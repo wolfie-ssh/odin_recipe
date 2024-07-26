@@ -8,8 +8,8 @@ int main(void)
     scanf("%d", &height);
 
     if (height != 160)
-    printf("Not Tall Enough\n");
+    printf("Value Not Equal To 160\n");
     else
-    printf("Tall Enough!\n");
+    printf("Value Equal To 160\n");
     return 0;
 }
