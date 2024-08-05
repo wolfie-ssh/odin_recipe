@@ -6,10 +6,11 @@ int main(void)
     printf("Enter a String: ");
     scanf("%s", s1);
 
-    for(int i=0; i<20;i++)
-        printf("s1[%d] =%c\n",i, s1[i]);
-
-    printf("s1: %s\n", s1);
-    return 0;
-
+    int i=0;
+    while(s1[i] != '\0')
+    {
+        if(s1[i]=='0')
+            printf("Found 0 at index number %d \n", i);
+        i++;
+    }
 }
