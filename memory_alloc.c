@@ -2,15 +2,24 @@
 #include <stdlib.h>
 
 int main(void)
- {
-    int a[]=(1,2,3,4,5,6,7,8,9,10);
-    add_one(a+5, 5);
-    for (int i=0; i < 10; i++)
-        printf("a[%d] = %d\n", i, a[i]);
-        return 0;
- }
+{
+    int *a;
 
- void add_one(int *array, int length){
-    for (int i = 0; i < length; i++)
-        array[i] += 1;
- }
+    a = calloc(5, sizeof(5));
+    printf("Initial Values: \n");
+    for (int i = 0; i < 5; i++)          // printing values of array
+        printf("a[%d] = %d\n", i, a[i]); // before initializing
+    
+    a[0]=1; //assigning values to the array
+    a[1]=5;
+    a[2]=7;
+    a[3]=9;
+    a[4]=11;
+
+    printf("\nAssigned Values: \n");
+    for (int i = 0; i < 5; i++)          // printing values of array
+        printf("a[%d] = %d\n", i, a[i]); // after initializing
+
+    free(a);
+
+}
