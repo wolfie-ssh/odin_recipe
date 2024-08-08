@@ -15,7 +15,7 @@ int main(void)
 
 void add_one(int *a, int *b, int *c)
 {
-    printf(" a: %p\n", a);
+    
     *a = *a + 1;
     *b = *b + 1;
     *c = *c + 1;
