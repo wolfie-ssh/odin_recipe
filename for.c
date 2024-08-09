@@ -9,4 +9,5 @@ int main(void)
     printf("Even\n");
     else printf("Odd\n");
     }
+    
 }
