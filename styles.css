@@ -8,7 +8,9 @@
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 20px;
-    background: linear-gradient(45deg, rgb(145, 231, 198), rgb(221, 136, 200));
-    
-
+    background: linear-gradient(45deg, blueviolet, indigo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid blueviolet;
+    animation: pulse 2s infinite;
 }
