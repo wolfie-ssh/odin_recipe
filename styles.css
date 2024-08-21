@@ -10,7 +10,16 @@
     margin-bottom: 20px;
     background: linear-gradient(45deg, blueviolet, indigo);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 3px solid blueviolet;
     animation: pulse 2s infinite;
+}
+
+.sub_list {
+    color: rgb(124, 5, 61);
+}
+
+.sub_title1 {
+    color: chartreuse;
 }
