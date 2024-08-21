@@ -1,5 +1,5 @@
 .main_heading {
-    color: blueviolet;
+    color: rgb(156, 8, 8);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 48px;
@@ -8,18 +8,27 @@
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 20px;
-    background: linear-gradient(45deg, blueviolet, indigo);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 3px solid blueviolet;
+    border-bottom: 3px solid rgb(255, 0, 0);
     animation: pulse 2s infinite;
 }
 
 .sub_list {
-    color: rgb(124, 5, 61);
+    color: rgb(248, 248, 248);
 }
 
-.sub_title1 {
-    color: chartreuse;
+.index_body {
+    background-image: url(https://files.catbox.moe/y09akt.png);
+}
+
+.lasagna_body {
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-vintage-kraft-paper-background-design-picture-image_977972.jpg);
+    opacity: 1.5;
+}
+
+.chicken_body {
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-vintage-kraft-paper-background-design-picture-image_977972.jpg);
+}
+
+.pancakes_body {
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-vintage-kraft-paper-background-design-picture-image_977972.jpg);
 }
